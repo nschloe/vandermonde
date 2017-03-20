@@ -29,14 +29,15 @@ setup(
     author_email=about['__author_email__'],
     packages=find_packages(),
     description=(
-       u'Björck-Pereyra algorithm for inverting Vandermonde matrices'
+       u'Vandermonde matrix tools'
        ),
     long_description=read('README.rst'),
-    url='https://github.com/nschloe/vander',
+    url='https://github.com/nschloe/vandermonde',
     download_url='https://github.com/nschloe/vandermonde/releases',
     license=about['__license__'],
     platforms='any',
     install_requires=[
+        'numpy'
         ],
     classifiers=[
         about['__status__'],
