@@ -3,7 +3,7 @@
 
 from .helpers import *
 
-from voropy.__about__ import (
+from .__about__ import (
     __version__,
     __author__,
     __author_email__,

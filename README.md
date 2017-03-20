@@ -34,7 +34,7 @@ to install/update.
 
 ### Testing
 
-To run the voropy unit tests, check out this repository and type
+To run the tests, check out the repository and type
 ```
 pytest
 ```
