@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/nschloe/vandermonde.svg?branch=master)](https://travis-ci.org/nschloe/vandermonde)
 [![codecov](https://codecov.io/gh/nschloe/vandermonde/branch/master/graph/badge.svg)](https://codecov.io/gh/nschloe/vandermonde)
 [![PyPi Version](https://img.shields.io/pypi/v/vandermonde.svg)](https://pypi.python.org/pypi/vandermonde)
-[![GitHub stars](https://img.shields.io/github/stars/nschloe/vandermonde.svg?style=social&label=Star&maxAge=2592000)](https://github.com/nschloe/vandermonde)
+[![GitHub stars](https://img.shields.io/github/stars/nschloe/vandermonde.svg?style=social&label=Stars&maxAge=2592000)](https://github.com/nschloe/vandermonde)
 
 vandermonde is a module with a handful of tools for working with [Vandermonde
 matrices](https://en.wikipedia.org/wiki/Vandermonde_matrix).
@@ -25,7 +25,7 @@ sol = vandermonde.solve(x, b)
 
 vandermonde is [available from the Python Package
 Index](https://pypi.python.org/pypi/vandermonde/), so
-simply type
+simply do
 ```
 pip install -U vandermonde
 ```
