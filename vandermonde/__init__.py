@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 #
 
-from .helpers import *
-
 from .__about__ import (
     __version__,
     __author__,
@@ -10,3 +8,6 @@ from .__about__ import (
     __status__,
     __license__
     )
+
+#
+from .main import matrix, det, solve, solve_transpose
