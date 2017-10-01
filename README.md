@@ -1,7 +1,6 @@
 # vandermonde
 
 [![Build Status](https://travis-ci.org/nschloe/vandermonde.svg?branch=master)](https://travis-ci.org/nschloe/vandermonde)
-[![Code Health](https://landscape.io/github/nschloe/vandermonde/master/landscape.png)](https://landscape.io/github/nschloe/vandermonde/master)
 [![codecov](https://codecov.io/gh/nschloe/vandermonde/branch/master/graph/badge.svg)](https://codecov.io/gh/nschloe/vandermonde)
 [![PyPi Version](https://img.shields.io/pypi/v/vandermonde.svg)](https://pypi.python.org/pypi/vandermonde)
 [![GitHub stars](https://img.shields.io/github/stars/nschloe/vandermonde.svg?style=social&label=Star&maxAge=2592000)](https://github.com/nschloe/vandermonde)

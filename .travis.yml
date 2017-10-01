@@ -6,19 +6,15 @@ python:
     - '2.7'
     - '3.6'
 
-addons:
-  apt:
-    packages:
-      - python-numpy
-      - python3-numpy
-
 before_install:
-  - pip install pytest pytest-cov
+  - pip install pytest pytest-cov pylint
 
 install:
   - pip install .
 
 script:
+  - pylint pylint
+  - pylint test/*.py
   - cd test && pytest --cov vandermonde
 
 after_success:
