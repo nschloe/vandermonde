@@ -7,18 +7,12 @@ import codecs
 # https://packaging.python.org/single_source_version/
 base_dir = os.path.abspath(os.path.dirname(__file__))
 about = {}
-with open(os.path.join(base_dir, "vandermonde", "__about__.py"), "rb") as f:
+with open(os.path.join(base_dir, "meshio", "__about__.py"), "rb") as f:
     exec(f.read(), about)
 
 
 def read(fname):
-    try:
-        content = codecs.open(
-            os.path.join(os.path.dirname(__file__), fname), encoding="utf-8"
-        ).read()
-    except Exception:
-        content = ""
-    return content
+    return codecs.open(os.path.join(base_dir, fname), encoding="utf-8").read()
 
 
 setup(
