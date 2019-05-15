@@ -1,9 +1,12 @@
 # vandermonde
 
-[![Build Status](https://travis-ci.org/nschloe/vandermonde.svg?branch=master)](https://travis-ci.org/nschloe/vandermonde)
-[![codecov](https://codecov.io/gh/nschloe/vandermonde/branch/master/graph/badge.svg)](https://codecov.io/gh/nschloe/vandermonde)
-[![PyPi Version](https://img.shields.io/pypi/v/vandermonde.svg)](https://pypi.python.org/pypi/vandermonde)
+[![CircleCI](https://img.shields.io/circleci/project/github/nschloe/vandermonde/master.svg)](https://circleci.com/gh/nschloe/vandermonde)
+[![codecov](https://img.shields.io/codecov/c/github/nschloe/vandermonde.svg)](https://codecov.io/gh/nschloe/vandermonde)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+[![PyPi Version](https://img.shields.io/pypi/v/vandermonde.svg)](https://pypi.org/project/vandermonde)
+[![Debian CI](https://badges.debian.net/badges/debian/testing/python3-vandermonde/version.svg)](https://tracker.debian.org/pkg/python-vandermonde)
 [![GitHub stars](https://img.shields.io/github/stars/nschloe/vandermonde.svg?logo=github&label=Stars&logoColor=white)](https://github.com/nschloe/vandermonde)
+
 
 vandermonde is a module with a handful of tools for working with [Vandermonde
 matrices](https://en.wikipedia.org/wiki/Vandermonde_matrix).
