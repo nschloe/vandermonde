@@ -1,11 +1,13 @@
 # vandermonde
 
-[![CircleCI](https://img.shields.io/circleci/project/github/nschloe/vandermonde/master.svg)](https://circleci.com/gh/nschloe/vandermonde)
-[![codecov](https://img.shields.io/codecov/c/github/nschloe/vandermonde.svg)](https://codecov.io/gh/nschloe/vandermonde)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
-[![PyPi Version](https://img.shields.io/pypi/v/vandermonde.svg)](https://pypi.org/project/vandermonde)
-[![Debian CI](https://badges.debian.net/badges/debian/testing/python3-vandermonde/version.svg)](https://tracker.debian.org/pkg/python-vandermonde)
-[![GitHub stars](https://img.shields.io/github/stars/nschloe/vandermonde.svg?logo=github&label=Stars&logoColor=white)](https://github.com/nschloe/vandermonde)
+[![PyPi Version](https://img.shields.io/pypi/v/vandermonde.svg?style=flat-square)](https://pypi.org/project/vandermonde)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/vandermonde.svg?style=flat-square)](https://pypi.org/pypi/vandermonde/)
+[![GitHub stars](https://img.shields.io/github/stars/nschloe/vandermonde.svg?style=flat-square&logo=github&label=Stars&logoColor=white)](https://github.com/nschloe/vandermonde)
+[![PyPi downloads](https://img.shields.io/pypi/dm/vandermonde.svg?style=flat-square)](https://pypistats.org/packages/vandermonde)
+
+[![gh-actions](https://img.shields.io/github/workflow/status/nschloe/vandermonde/ci?style=flat-square)](https://github.com/nschloe/vandermonde/actions?query=workflow%3Aci)
+[![codecov](https://img.shields.io/codecov/c/github/nschloe/vandermonde.svg?style=flat-square)](https://codecov.io/gh/nschloe/vandermonde)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square)](https://github.com/psf/black)
 
 
 vandermonde is a module with a handful of tools for working with [Vandermonde
@@ -16,10 +18,11 @@ implemented.
 
 Example:
 ```python
+import numpy as np
 import vandermonde
 
-x = numpy.linspace(0.0, 1.0, 14)
-b = numpy.random.rand(len(x))
+x = np.linspace(0.0, 1.0, 14)
+b = np.random.rand(len(x))
 
 sol = vandermonde.solve(x, b)
 ```
@@ -34,24 +37,5 @@ pip install -U vandermonde
 ```
 to install/update.
 
-### Testing
-
-To run the tests, check out the repository and type
-```
-pytest
-```
-
-### Distribution
-
-To create a new release
-
-1. bump the `__version__` number,
-
-2. publish to PyPi and GitHub:
-    ```
-    make publish
-    ```
-
 ### License
-
 vandermonde is published under the [MIT license](https://en.wikipedia.org/wiki/MIT_License).

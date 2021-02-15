@@ -1,10 +1,13 @@
-# -*- coding: utf-8 -*-
-#
+try:
+    # Python 3.8+
+    from importlib import metadata
+except ImportError:
+    try:
+        import importlib_metadata as metadata
+    except ImportError:
+        __version__ = "unknown"
 
-__version__ = "0.1.2"
-__author__ = u"Nico Schlömer"
-__author_email__ = "nico.schloemer@gmail.com"
-__copyright__ = u"Copyright (c) 2017,2019 {} <{}>".format(__author__, __author_email__)
-__website__ = "https://github.com/nschloe/vandermonde"
-__license__ = "License :: OSI Approved :: MIT License"
-__status__ = "Development Status :: 4 - Beta"
+try:
+    __version__ = metadata.version("vandermonde")
+except Exception:
+    __version__ = "unknown"

@@ -1,7 +1,6 @@
-# -*- coding: utf-8 -*-
-#
-import vandermonde
 import numpy
+
+import vandermonde
 
 
 def test_solve():
@@ -15,7 +14,6 @@ def test_solve():
     sol = vandermonde.solve(x, b)
 
     assert max(abs(sol - ref_sol)) < 1.0e-14
-    return
 
 
 def test_solve_transpose():
@@ -29,7 +27,6 @@ def test_solve_transpose():
     sol = vandermonde.solve_transpose(x, b)
 
     assert max(abs(sol - ref_sol)) < 1.0e-14
-    return
 
 
 def test_determinant():
@@ -37,4 +34,3 @@ def test_determinant():
     x = numpy.linspace(0.0, 1.0, n, dtype=numpy.float64)
     d = numpy.linalg.det(vandermonde.matrix(x))
     assert abs(d - vandermonde.det(x)) < 1.0e-14
-    return

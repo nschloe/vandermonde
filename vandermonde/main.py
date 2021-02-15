@@ -1,14 +1,12 @@
-# -*- coding: utf-8 -*-
-#
-import numpy
+import numpy as np
 
 
 def matrix(x):
-    return numpy.vander(x, increasing=True)
+    return np.vander(x, increasing=True)
 
 
 def det(x):
-    return numpy.prod([numpy.prod(x[i + 1 :] - x[i]) for i in range(len(x))])
+    return np.prod([np.prod(x[i + 1 :] - x[i]) for i in range(len(x))])
 
 
 def solve(alpha, b):
