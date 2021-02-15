@@ -18,10 +18,11 @@ implemented.
 
 Example:
 ```python
+import numpy as np
 import vandermonde
 
-x = numpy.linspace(0.0, 1.0, 14)
-b = numpy.random.rand(len(x))
+x = np.linspace(0.0, 1.0, 14)
+b = np.random.rand(len(x))
 
 sol = vandermonde.solve(x, b)
 ```
