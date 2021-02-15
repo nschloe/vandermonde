@@ -2,9 +2,8 @@
 
 [![CircleCI](https://img.shields.io/circleci/project/github/nschloe/vandermonde/master.svg)](https://circleci.com/gh/nschloe/vandermonde)
 [![codecov](https://img.shields.io/codecov/c/github/nschloe/vandermonde.svg)](https://codecov.io/gh/nschloe/vandermonde)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![PyPi Version](https://img.shields.io/pypi/v/vandermonde.svg)](https://pypi.org/project/vandermonde)
-[![Debian CI](https://badges.debian.net/badges/debian/testing/python3-vandermonde/version.svg)](https://tracker.debian.org/pkg/python-vandermonde)
 [![GitHub stars](https://img.shields.io/github/stars/nschloe/vandermonde.svg?logo=github&label=Stars&logoColor=white)](https://github.com/nschloe/vandermonde)
 
 
